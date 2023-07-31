@@ -48,3 +48,19 @@
 .icon {
   text-align: right;
 }
+
+.navbar li {
+  display: inline-block;
+  width: 70px;
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navbar a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
