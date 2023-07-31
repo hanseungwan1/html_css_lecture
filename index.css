@@ -3,6 +3,10 @@
   display: block;
   margin: 0 auto;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .title {
   text-align: center;
@@ -40,14 +44,15 @@
   width: 20%;
   height: 400px;
   background-color: cornflowerblue;
-  float: left;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .content {
   width: 80%;
   height: 400px;
   background-color: coral;
-  float: left;
+  display: inline-block;
 }
 
 .footer {
