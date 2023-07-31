@@ -26,3 +26,18 @@ table {
   border-radius: 10px;
   overflow: hidden;
 }
+
+.btn {
+  background-color: orange;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: red;
+}
+.btn:active {
+  background-color: blue;
+}
