@@ -140,3 +140,21 @@
 
 @media screen and (max-width: 1200px) {
 }
+
+.pseudo::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+progress {
+  appearance: none;
+}
+progress::-webkit-progress-bar {
+  background: blue;
+  border-radius: 10px;
+  box-shadow: inset 3px 3px 10px #ccc;
+}
+progress::-webkit-progress-value {
+  border-radius: 10px;
+  background-color: red;
+}
